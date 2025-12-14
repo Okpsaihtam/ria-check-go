@@ -5,7 +5,7 @@ const mistralService = require('./mistralService');
 const { riaCategories } = require('./riaRules');
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 10000;
 
 // Middlewares
 app.use(express.json());

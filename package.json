@@ -1,14 +1,17 @@
 {
   "name": "ria-check-go",
   "version": "1.0.0",
-  "description": "Application de conformité RIA avec Mistral AI",
+  "description": "Chatbot de conformité RIA avec Mistral AI",
   "main": "server/index.js",
   "scripts": {
     "start": "node server/index.js",
     "test": "node test-mistral.js"
   },
-  "keywords": ["ria", "mistral", "ai", "conformité"],
-  "author": "BTS SIO SLAM",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": ["ria", "mistral", "chatbot", "conformité"],
+  "author": "Votre Nom",
   "license": "ISC",
   "dependencies": {
     "@mistralai/mistralai": "^1.3.7",
